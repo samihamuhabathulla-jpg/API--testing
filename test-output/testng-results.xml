@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-15T15:45:15 IST" name="Default suite" finished-at="2026-06-15T15:45:18 IST" duration-ms="3049">
+  <suite started-at="2026-06-16T21:40:37 IST" name="Default suite" finished-at="2026-06-16T21:40:39 IST" duration-ms="1938">
     <groups>
     </groups>
-    <test started-at="2026-06-15T15:45:15 IST" name="Default test" finished-at="2026-06-15T15:45:18 IST" duration-ms="3049">
-      <class name="com.tests.APIValidationTest">
-        <test-method signature="validateUserData()[pri:0, instance:com.tests.APIValidationTest@1cf56a1c]" started-at="2026-06-15T15:45:15 IST" name="validateUserData" finished-at="2026-06-15T15:45:18 IST" duration-ms="2911" status="PASS">
+    <test started-at="2026-06-16T21:40:37 IST" name="Default test" finished-at="2026-06-16T21:40:39 IST" duration-ms="1938">
+      <class name="restassured_practice.DeleteTrainee">
+        <test-method signature="delete_trainee()[pri:0, instance:restassured_practice.DeleteTrainee@4afcd809]" started-at="2026-06-16T21:40:37 IST" name="delete_trainee" finished-at="2026-06-16T21:40:39 IST" duration-ms="1887" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateUserData -->
-      </class> <!-- com.tests.APIValidationTest -->
+        </test-method> <!-- delete_trainee -->
+      </class> <!-- restassured_practice.DeleteTrainee -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
