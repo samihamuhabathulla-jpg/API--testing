@@ -15,8 +15,8 @@ public class CreateTrainee {
 	@Test
 	public void create_post() {
 		Map<String, Object> payload = new HashMap<>();
-		payload.put("name", "Samiha");
-		payload.put("email", "abc@gmail.com");
+		payload.put("name", "SamihaMuhabathulla");
+		payload.put("email", "abcd@gmail.com");
 		payload.put("company", "Cognizant");
 		payload.put("id", "1");
 		
