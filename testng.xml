@@ -12,6 +12,14 @@
       <class name="JSON_practice.PutMethod"/>
       <class name="JSON_practice.GETCount"/>
       <class name="com.tests.CreateUserTest"/>
+      <class name="restassured_practice.CreateTrainee"/>
+      <class name="restassured_practice.DeleteTrainee"/>
+      <class name="restassured_practice.GetTrainee"/> 
+      <class name="restassured_practice.InvalidTrainee"/>
+      <class name="restassured_practice.UpdateTrainee"/>
+      <class name="restassured_practice.InvalidLogin"/>
+      <class name="restassured_practice.PartialUpdate"/>
+      <class name="restassured_practice.Login"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
