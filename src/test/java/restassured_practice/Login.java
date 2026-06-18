@@ -24,7 +24,9 @@ public class Login {
 				.when()
 				.post("http://localhost:5000/login");
 		res.prettyPrint();
-		Assert.assertEquals(res.getStatusCode(),200);	
+		res.then()
+		.statusCode(200);
+		
 	}
 
 }

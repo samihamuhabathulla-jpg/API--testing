@@ -24,7 +24,8 @@ public class InvalidLogin {
 				.when()
 				.post("http://localhost:5000/login");
 		res.prettyPrint();
-		Assert.assertEquals(res.getStatusCode(),401);	
+		res.then()
+		.statusCode(401);
 	}
 
 }

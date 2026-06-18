@@ -1,24 +1,24 @@
-package JSON_practice;
+package restassured_practice;
 
-import static org.testng.Assert.assertEquals;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
-public class DeleteMethod {
+public class OptionsTrainee {
 
     @Test
-    public void deletePost() {
+    public void options_trainee() {
 
         Response res = RestAssured
                 .given()
                 .when()
-                .delete("https://jsonplaceholder.typicode.com/posts/1");
+                .options("http://localhost:3000/trainees");
         System.out.println("Status Code : " + res.getStatusCode());
-        res.prettyPrint();
+        System.out.println("Headers : " + res.getHeaders());
         res.then()
-        .statusCode(200);
+        .statusCode(204);
     }
 }

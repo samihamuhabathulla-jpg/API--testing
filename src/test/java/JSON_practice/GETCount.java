@@ -14,13 +14,13 @@ public class GETCount {
 				.given()
 				.when()
 				.get("https://jsonplaceholder.typicode.com/posts");
-		System.out.println("Status code : "+res.getStatusCode());
+		System.out.println("Ststus code : "+res.getStatusCode());
 		res.prettyPrint();
 		int count = res.jsonPath().getList("$").size();
 		System.out.println(count);
+		res.then()
+		.statusCode(200);
 		Assert.assertEquals(count,100);
 	}
 
 }
-
-

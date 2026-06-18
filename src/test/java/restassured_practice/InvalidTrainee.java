@@ -14,10 +14,7 @@ public class InvalidTrainee {
 				.given()
 				.when()
 				.get("http://localhost:3000/trainees/35");
-		Assert.assertEquals(res.getStatusCode(),404);
+		res.then()
+		.statusCode(404);
 	}
 }
-
-
-
-

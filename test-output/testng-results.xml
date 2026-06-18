@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-16T21:40:37 IST" name="Default suite" finished-at="2026-06-16T21:40:39 IST" duration-ms="1938">
+  <suite started-at="2026-06-18T08:21:04 IST" name="Default suite" finished-at="2026-06-18T08:21:06 IST" duration-ms="1415">
     <groups>
     </groups>
-    <test started-at="2026-06-16T21:40:37 IST" name="Default test" finished-at="2026-06-16T21:40:39 IST" duration-ms="1938">
-      <class name="restassured_practice.DeleteTrainee">
-        <test-method signature="delete_trainee()[pri:0, instance:restassured_practice.DeleteTrainee@4afcd809]" started-at="2026-06-16T21:40:37 IST" name="delete_trainee" finished-at="2026-06-16T21:40:39 IST" duration-ms="1887" status="PASS">
+    <test started-at="2026-06-18T08:21:04 IST" name="Default test" finished-at="2026-06-18T08:21:06 IST" duration-ms="1415">
+      <class name="restassured_practice.OptionsTrainee">
+        <test-method signature="options_trainee()[pri:0, instance:restassured_practice.OptionsTrainee@4afcd809]" started-at="2026-06-18T08:21:04 IST" name="options_trainee" finished-at="2026-06-18T08:21:06 IST" duration-ms="1368" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- delete_trainee -->
-      </class> <!-- restassured_practice.DeleteTrainee -->
+        </test-method> <!-- options_trainee -->
+      </class> <!-- restassured_practice.OptionsTrainee -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -23,6 +23,7 @@ public class PostMethod {
 		        .when()
 		        .post("https://jsonplaceholder.typicode.com/posts");
 		System.out.println("Status Code : "+res.getStatusCode());
-		Assert.assertEquals(res.getStatusCode(),201);
+		res.then()
+		.statusCode(201);
 	}
 }

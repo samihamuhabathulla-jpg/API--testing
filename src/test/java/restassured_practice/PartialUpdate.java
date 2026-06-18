@@ -14,12 +14,13 @@ public class PartialUpdate {
 	@Test
 	public void partial_update() {
 		Map<String, Object> payload = new HashMap<>();
-		payload.put("mail", "abcd@gmail.com");
+		payload.put("mail", "yxz@gmail.com");
 		Response res = RestAssured
 				.given()
 				.when()
-				.patch("http://localhost:3000/trainees/mNJqwbLot-Y");
+				.patch("http://localhost:3000/trainees/1");
 		res.prettyPrint();
-		Assert.assertEquals(res.getStatusCode(),200);
+		res.then()
+		.statusCode(200);
 	}
 }
