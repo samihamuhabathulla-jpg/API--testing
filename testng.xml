@@ -16,6 +16,12 @@
       <class name="restassured_practice.InvalidTrainee"/>
       <class name="restassured_practice.InvalidLogin"/>
       <class name="restassured_practice.Login"/>
+      <class name="com.lms_practice.GetAllInstitutions"/>
+      <class name="com.lms_practice.GetAllRoles.java"/>
+      <class name="com.lms_practice.GetAllScoreStructure"/>
+      <class name="com.lms_practice.HealthCheck.java"/>
+      <class name="com.lms_practice.Login"/>
+      <class name="com.lms_practice.WithoutToken"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
