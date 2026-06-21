@@ -24,7 +24,6 @@
       <class name="com.lms_practice.WithoutToken"/>
       <class name="com.lms_practice.CreateNote"/>
       <class name="com.lms_practice.DeleteNote"/>
-      <class name="com.lms_practice.DeleteNoteById"/>
       <class name="com.lms_practice.GetAllNotes"/>
       
     </classes>
